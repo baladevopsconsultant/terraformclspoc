@@ -12,7 +12,7 @@
         name: nginx
         state: present
 
-    - name: Install wget
+    - name: Install wget installation
       apt:
         name: wget
         state: present
