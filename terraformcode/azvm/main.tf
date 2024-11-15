@@ -8,5 +8,5 @@ module "rg_vm" {
   rg_name         = "tf-poc-rg"
   location        = "Central India"
   admin_username  = "adminuser"
-  admin_password  = "terraformpoc@123"
+  admin_password  = "terraformpoc@1234"
 }
