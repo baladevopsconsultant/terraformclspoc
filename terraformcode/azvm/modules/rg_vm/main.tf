@@ -124,7 +124,6 @@ resource "azurerm_linux_virtual_machine" "vm" {
   provisioner "remote-exec" {
     inline = [ 
       "sudo apt-get update",
-      "sudo apt-get -y install ansible"
     ]
     connection{
      type = "ssh"
