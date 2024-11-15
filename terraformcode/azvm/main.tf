@@ -2,7 +2,7 @@ terraform {
   required_providers {
     azurerm = {
       source  = "hashicorp/azurerm"
-      version = "~> 3.0"  // Replace with your desired version constraint
+      version = "~> 4.0"  // Replace with your desired version constraint
     }
   }
 }
