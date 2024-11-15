@@ -6,7 +6,7 @@ provider "azurerm" {
 module "rg_vm" {
   source          = "./modules/rg_vm"
   rg_name         = "tf-poc-rg"
-  location        = "Central India"
+  location        = "East Asia"
   admin_username  = "adminuser"
   admin_password  = "terraformpoc@1234"
 }
