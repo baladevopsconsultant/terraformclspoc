@@ -1,0 +1,19 @@
+---
+- name: Install packages
+  hosts: all
+  become: yes
+  tasks:
+    - name: Update apt cache
+      apt:
+        update_cache: yes
+
+    - name: Install nginx
+      apt:
+        name: nginx
+        state: present
+
+    - name: Install wget
+      apt:
+        name: wget
+        state: present
+...
