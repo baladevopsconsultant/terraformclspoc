@@ -12,8 +12,8 @@
         name: nginx
         state: present
 
-    - name: Install wget
+    - name: Install vim
       apt:
-        name: wget
+        name: vim
         state: present
 ...
